@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0B0B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp">
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="49dp"
+            android:text="¡Buenos días!"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="37dp"
+            android:layout_height="34dp"
+            android:background="@drawable/engranaje"
+            android:layout_gravity="center"
+            android:backgroundTint="#5E5E5E"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/bbsita" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#303030"
+                android:paddingLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:paddingTop="15dp"
+                android:text=" Dime bbsita"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                app:srcCompat="@drawable/trendy"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#303030"
+
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="  Trendy      "
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/dame" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="2dp"
+                android:background="#303030"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text=" Kobe! Dame D"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/trueno"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#303030"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="  Atrevido      "
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/joexotic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="2dp"
+                android:background="#303030"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text=" Joe Exotic        "
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/lakers"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#303030"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="  A correr los Lak "
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingBottom="10dp"
+        android:text="Vuelve a..."
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/truenin"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_marginLeft="20dp"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/badbu" />
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageView9"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/aaaaaaa" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingBottom="10dp"
+            android:text="This is Trueno"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="10dp"
+            android:text="This is Bad Bunny"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="10dp"
+            android:text="This is B"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingBottom="10dp"
+        android:text="Lo mejor de cada artista"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/aaaaaaa"/>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_marginLeft="20dp"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/rvfv" />
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageView12"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/ntywr" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#222222"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/bbsita" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:background="#22222222"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text=" Dime Bebesita        "
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/monitor" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/corazon" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/pausa" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#303030"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow android:paddingTop="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/casa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/buscar" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/libro" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="Inicio"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="Buscar"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="Mi biblioteca"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
